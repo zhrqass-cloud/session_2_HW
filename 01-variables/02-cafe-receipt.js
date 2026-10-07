@@ -12,3 +12,21 @@
 //   Total: 1650 baisa = 1.65 OMR
 
 // your code here
+const ShawarmaPrice= 600;
+const ShawarmaCount=2;
+
+
+const karakPrice= 150;
+const karakCount=3;
+
+const shawarmaTotal= ShawarmaPrice * ShawarmaCount;
+
+const karakTotal = karakPrice * karakCount;
+
+const totalBaisa = shawarmaTotal + karakTotal;
+const totalOMR= totalBaisa / 1000;
+
+console.log(`Shawarma: ${ShawarmaCount} x ${ShawarmaPrice} = ${shawarmaTotal} baisa`)
+console.log(`karak: ${karakCount} x ${karakPrice} = ${karakTotal} baisa `)
+console.log(`total: ${totalBaisa} baisa ${totalOMR} OMR`)
+
